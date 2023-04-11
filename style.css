@@ -43,12 +43,12 @@ h1 {
     margin: 0;
 }
 
-.header-content-left,.header-content-right {
+.header-content-left {
     display: flex;
     justify-content: center; 
-    align-items: center;
     flex-direction: column;
     width: 50%;
+    margin-left: 325px;
 }
 
 .header-image {
@@ -58,8 +58,15 @@ h1 {
 }
 
 .sign-up-top {
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
     background-color: #3882F6;
     color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 10px;
 }
 
 a {
