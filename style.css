@@ -25,6 +25,11 @@
     flex-direction: column;
 }
 
+.header-image {
+    height: 250px;
+    width: 500px;
+}
+
 a {
     text-decoration: none;
 }
