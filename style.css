@@ -1,7 +1,38 @@
+.header {
+
+}
+.top-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-left,.navbar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.header-content {
+   display: flex;
+   flex-direction: row;
+}
+
+.header-content-left,.header-content-right {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+
 a {
     text-decoration: none;
 }
 
 ul {
     list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
 }
