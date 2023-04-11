@@ -11,7 +11,8 @@ body {
 h1 {
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FAF8
+    color: #F9FAF8;
+    margin: 0;
 }
 .top-header {
     display: flex;
@@ -39,6 +40,7 @@ h1 {
 .header-text {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
 }
 
 .header-content-left,.header-content-right {
