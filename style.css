@@ -16,6 +16,7 @@
 .header-content {
    display: flex;
    flex-direction: row;
+   margin: 50px;
 }
 
 .header-content-left,.header-content-right {
@@ -23,11 +24,13 @@
     justify-content: center; 
     align-items: center;
     flex-direction: column;
+    width: 50%;
 }
 
 .header-image {
     height: 250px;
     width: 500px;
+    margin: 50px;
 }
 
 a {
