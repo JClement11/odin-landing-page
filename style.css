@@ -1,9 +1,20 @@
 .header {
+    background-color: #1F2937;
+}
 
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
 }
 .top-header {
     display: flex;
     flex-direction: row;
+}
+
+.navbar-left {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .navbar-left,.navbar-right {
@@ -17,6 +28,11 @@
    display: flex;
    flex-direction: row;
    margin: 50px;
+}
+
+.header-text {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .header-content-left,.header-content-right {
@@ -33,8 +49,15 @@
     margin: 50px;
 }
 
+.sign-up-top {
+    background-color: #3882F6;
+    color: white;
+}
+
 a {
     text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 ul {
