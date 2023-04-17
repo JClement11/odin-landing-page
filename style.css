@@ -138,3 +138,27 @@ h2{
     color: #1F2937;
     margin-left: 1050px;
 }
+
+.footer {
+    margin: 100px 250px;
+}
+
+.footer-box {
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.footer-title,.footer-text {
+    color: #F9FAF8;
+}
+
+.footer-button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
