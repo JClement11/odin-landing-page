@@ -90,6 +90,7 @@ ul {
     flex-direction: column;
     align-items: center;
     margin: 10px;
+    padding-bottom: 100px;
 }
 
 h2{
