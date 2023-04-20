@@ -67,7 +67,7 @@ h1 {
     background-color: #3882F6;
     color: white;
     font-size: 18px;
-    font-weight: bolder;
+    font-weight: bold;
     margin-top: 10px;
 }
 
@@ -140,29 +140,57 @@ h2{
 }
 
 .footer {
-    margin: 100px 250px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container {
+    background-color: #3882F6;  
+    width: 70%;
+    height: 50%;    
+    display: flex;
+    border-radius: 10px;
 }
 
 .footer-left {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+}
+
+h4 {
+    margin-bottom: 0;
+    color: white;
+    font-size: 25px;
+
+}
+
+.footer-text {
+    margin-top: 0;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
     
 }
 
-.footer-box {
-    background-color: #3882F6;
-    border-radius: 10px;
-}
-
-.footer-title,.footer-text {
-    color: #F9FAF8;
-}
-
 .footer-button {
-    background-color: #3882F6;
-    border: 2px solid #F9FAF8;
-    color: #F9FAF8;
+    background-color:#3882F6;
+    color: white;
     width: 125px;
     height: 40px;
+    border: 2px solid white;
     border-radius: 10px;
     font-size: 18px;
-    font-weight: bolder;
+    font-weight: bold;
 }
